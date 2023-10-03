@@ -10,11 +10,11 @@ html{
 body{
   padding: 0;
   margin: 0;
-  font-family:  "Open Sans", "Arial", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #444;
   background-color: #fff;
+  color: #444;
 }
 *:focus{
   outline: 2px dotted #de2e54;
@@ -23,9 +23,9 @@ body{
 
 .container{
   width: 100%;
-  max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
   
@@ -34,9 +34,12 @@ body{
 .site-header{
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #fff;
 }
-
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 /* SITE-LOGO */
 .site-logo{
   display: flex;
@@ -45,7 +48,7 @@ body{
   color: #222;
   font-size: 24px;
   font-weight: 600;
-
+  text-decoration: none;
 }
 .site-logo-img{
   margin-right: 16px;  
@@ -65,20 +68,16 @@ body{
   color: #fff;
 }
 
-.site-header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 
 
 /* SITENAV */
 
 .sitenav{
-font-size: 24px;
-letter-spacing: 2px;
-font-weight: bold;
-text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .sitenav-list{
   display: flex;
