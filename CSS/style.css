@@ -178,48 +178,67 @@ text-transform: uppercase;
 .hero-img{
   align-self: flex-end;
 }
-.services{
+
+/* INDEX-SERVICES */
+.index-services{
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #fff;
 }
-.services-heading{
-  font-family: Open Sans Condensed;
+.index-services-heading{  
+  text-align: center;
+  font-family:"Open Sans Condensed","Arial", sans-serif;
   font-size: 36px;
   line-height: 1.2; 
-  text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 56px;
+  color: #000;
+
 }
-.services-list{
-  width: 864px;
-  list-style: none;
+.index-service-list{
+  width: 864px; 
+  padding: 0;
+  margin: 0;
   margin-right: auto;
   margin-left: auto;
+  list-style: none;
   margin-bottom: 60px;
 }
 
-.services-item{
+.index-service {
   display: flex;
   align-items: center;
 }
-.services-list-text{
-  width: 600px;
+.index-service-item:not(:last-child){
+  margin-bottom: 80px;
 }
-.services-list img{
+
+.index-service-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   margin-right: 64px;
   border-radius: 24px;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+}
+.index-service-content{
+  width: 600px;
 }
 .services-list-text h3{
-  font-family: Open Sans Condensed;
-  font-size: 24px;
-  line-height: 1.2;
+  margin-top: 0;
+  font-family: "Open Sans Condensed","Arial",sans-serif;
   margin-bottom: 24px;
+  color: #222;
 }
 .services-list-text p{
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+}
+
+.index-service-action{
+ display: flex;
+ justify-content: center;
 }
 
 /* SITE-FOOTER */
